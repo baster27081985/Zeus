@@ -33,7 +33,7 @@
     text-align: center;
     padding-top: 121px;
     background-color: #1a1c0f;
-    background-image: url('img/Photo-head.png');
+    background-image: url('Images/Photo-head.png');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: top center;
@@ -42,7 +42,7 @@
 .logo{
     width: 100%;
     height: 162px;
-    background-image: url('img/Logo.png');
+    background-image: url('Images/Logo.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
