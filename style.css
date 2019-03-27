@@ -53,33 +53,32 @@
     line-height: 60px;
     color: #ffffff;
 }
-.title_text{
-    margin-top: 200px;
-    overflow: hidden;
+.title__text{
     display: inline-block;
-    vertical-align: middle;
+    position: relative;
+    margin-top: 200px;
+    
     
 }
-.title_text::after{
-    content: "";
-    display: inline-block;
-    vertical-align: middle;
+.title__text::before,
+.title__text::after {
+   content: "";
+   position: absolute;
+  }
+  .title__text::before {
+    border-top: 4px solid #cdb378;
     width: 242px;
-    height: 4px;
-    margin-left: 17px;
-    background-color:#cdb378;
-    position: relative;
-}
-.title_text::before{
-    content: "";
-    display: inline-block;
-    vertical-align: middle;
+    top: 25px;
+    left: 195px;
+   }
+  .title__text::after{
+    border-bottom: 4px solid #cdb378;
     width: 242px;
-    height: 4px;
-    margin-right: 17px;
-    background-color: #cdb378;
-    position: relative;
-}
+    top: 25px;
+    right: 195px;
+  }
+
+
 .head__text{
     font-family: "CinzelDecorative-Regular", serif;
     font-size: 2.25rem;
@@ -120,4 +119,19 @@
     border-left: 2px solid #cdb378;
     padding-right: 3px;
     transform: rotate(-45deg);
+}
+.main{
+    display: block;
+ position: relative;
+ background:  url('Images/Photo-boy.png') no-repeat top right;
+ background-color: red;
+ background-size: cover 100% 100%;
+ width: 100%;
+ height: 1671px;
+}
+.main::before{
+    content: "";
+    position: absolute;
+    top:550px;
+    
 }
