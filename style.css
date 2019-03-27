@@ -91,26 +91,33 @@
     font-family: 'Amiri Slanted', serif;
     font-size: 1.5rem;
     line-height: 30px;
+    margin-top: 38px;
     color: #cdb378;
 }
-.top-text{
-    margin-top: 38px;
-}
 .lower_text{
+    font-size: 1rem;
+    line-height: 29px;
     margin-top: 335px;
 }
-.lower_text::before{
- content: "/";
- display: block;
- transform: rotate(20deg);
- top: 61px;
- position:relative;
+.arrow {
+    position: relative;
 }
-.lower_text::after{
-    content: "/";
-    display: block;
-    transform: rotate(-50deg);
-    top: 1px;
-    right: 12px;
-    position:relative;
-   }
+.arrow::before,
+.arrow::after {
+    content: "";
+    width: 10px;
+    height: 15px;
+    
+    position: absolute;
+}
+.arrow::before{
+    border-right: 2px solid #cdb378;
+    padding-left: 3px;
+    transform: rotate(45deg);
+    
+}
+  .arrow::after{
+    border-left: 2px solid #cdb378;
+    padding-right: 3px;
+    transform: rotate(-45deg);
+}
