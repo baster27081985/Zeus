@@ -24,20 +24,23 @@
 }
 .container{
     width: 100%;
+    height: 100%;
     padding: 0;
     margin: 0;
+    
+    
 }
 .head{
     width: 100%;
     height: 1175px;
     text-align: center;
     padding-top: 121px;
-    background-color: #1a1c0f;
+    background-color: rgb(26,28,15);
     background-image: url('Images/Photo-head.png');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: top center;
-    opacity: 1;
+    
 }
 .logo{
     width: 100%;
@@ -121,17 +124,30 @@
     transform: rotate(-45deg);
 }
 .main{
-    display: block;
- position: relative;
- background:  url('Images/Photo-boy.png') no-repeat top right;
- background-color: red;
- background-size: cover 100% 100%;
- width: 100%;
- height: 1671px;
-}
-.main::before{
-    content: "";
-    position: absolute;
-    top:550px;
+    width: 100%;
+    height: 700px;
+    background:rgb(26,28,15);
+    border-top: 1px solid transparent;
+    z-index:10000;
+    
     
 }
+.article{
+    width: 100%;
+    height: 100%;
+    margin-top: -160px;
+    z-index:200;
+    padding-top: 20px;
+    background: url('images/Photo-boy.png') no-repeat top right;
+    background-size: 589px 633px;
+}
+.lower__article{
+    width: 100%;
+    height: 100%;
+    background: url('images/Box-bg-text.png') no-repeat bottom left;
+    background-size: 1873px 100%;
+    margin-top: 180px;
+    opacity: 1;
+}
+ 
+ 
