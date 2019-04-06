@@ -125,7 +125,7 @@
 }
 .main{
     width: 100%;
-    height: 700px;
+    height: 1671px;
     background:rgb(26,28,15);
     border-top: 1px solid transparent;
     z-index:10000;
@@ -138,16 +138,60 @@
     margin-top: -160px;
     z-index:200;
     padding-top: 20px;
+    
     background: url('images/Photo-boy.png') no-repeat top right;
     background-size: 589px 633px;
 }
+.top__article{
+    padding-top: 116px;
+    padding-left: 215px;
+}
+
 .lower__article{
     width: 100%;
-    height: 100%;
+    height: 493px;
     background: url('images/Box-bg-text.png') no-repeat bottom left;
-    background-size: 1873px 100%;
-    margin-top: 180px;
+    background-size: 1873px auto;
+    
+    margin-top: 150px;
+    padding-top: 104px;
+    padding-left: 215px;
     opacity: 1;
 }
- 
- 
+.main_text{
+    font-size: 4.5rem;
+}
+.main_text-top{
+    font-size: 4.5rem;
+    color: #cdb378;
+}
+.main__subtext{
+    font-family: "Amiri Regular", serif;
+    font-size: 1.5rem;
+    line-height: 48.01px;
+}
+.subtext_top{
+    padding-top: 25px;
+    color:#cdb378;
+}
+.subtext_lower{
+    width: 896px;
+    height: 78px;
+    padding-top: 61px;
+    color:#abb190;
+}
+.but{
+    width: 224px;
+    height: 57px;
+    cursor: pointer;
+    font-family: "Amiri Regular", serif;
+    font-size: 1rem;
+    line-height: 48.01px;
+    color: #ffffff;
+    background: #272a18;
+    border: none;
+    outline: 2px solid #404429;
+}
+.but_line{
+    margin-top: 60px;
+}
